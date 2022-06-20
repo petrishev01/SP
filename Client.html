@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html  lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+
+    <title>
+         Chat на python
+    </title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  </head>
+  <body>
+  <div class="wrap">
+    <div id="welcome">
+      <p>Добро пожаловать в чат введите свой ник для доступа к чату:<p>
+      <label for="nick"></label><input id="nick" placeholder="Your nick" autocomplete="off"/>
+      <br>
+      <div id="Error"></div>
+      <button onclick="connect()">Войти в чат</button>
+    </div>
+    <div id="logIn">
+      <label>
+      <textarea class="send" placeholder="Для отправки нажмите Enter"></textarea>
+    </label>
+      <textarea class="message"></textarea>
+  </div>
+  </div>
+  <script src="script.js"></script>
+  </body>
+</html>

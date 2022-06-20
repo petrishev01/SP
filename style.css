@@ -1,0 +1,32 @@
+.wrap {
+    height: 10em;
+    position: relative
+}
+.wrap, button, textarea.message{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+body {
+    background-image: url(img/image.png);
+}
+p {
+ color: white;
+}
+textarea {
+    resize : none;
+}
+textarea.message {
+    width: 400px;
+	height: 600px;
+}
+textarea.send {
+    position: absolute;
+    top: 70%;
+    left: 100%;
+    width: 200px;
+	height: 200px;
+}
